@@ -105,7 +105,7 @@ class Download implements Callable<Result> {
 	 */
 	@Override
 	public Result call() throws Exception {
-		String url = imgInfo.getUrl();
+		String url = "http://www.bing.com" + imgInfo.getUrl();
         String copyright = imgInfo.getCopyright();
         String dateStr = imgInfo.getDate();
         String imgName = FilenameUtils.getName(url);

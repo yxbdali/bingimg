@@ -64,5 +64,4 @@ public class BingImgService implements IBingImgService {
 	public List<BingImg> find(Date startDate, Date endDate) {
 		return bingImgRepo.findByDateBetween(startDate, endDate);
 	}
-
 }
