@@ -22,3 +22,4 @@ spring:
 bing:
     img-path: d:/bingimg/
     img-url: http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=10&mkt=zh-cn
+    markets: en-us;zh-cn
